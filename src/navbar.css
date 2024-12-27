@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+    
+  }
+  
+  header {
+    width: 100%; /* Ensure the navbar spans the entire width of the viewport */
+    
+    top: 0;
+    left: 0; /* Align the navbar to the left */
+    right: 0; /* Align the navbar to the right */
+    
+    
+    transition: background-color 0.3s ease; /* Smooth transition */
+    padding: 10px 0; /* Optional: adjust padding for spacing */
+    background-color: white;
+  }
+  
+  /* Logo Styling */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #20d9f6; /* Logo text color */
+  
+    justify-content: flex-start; /* Center the links inside the navbar */
+    align-items: center;
+    padding: 8px 16px
+    
+}
+  .nav{
+        display: flex;
+        align-items: center;
+        gap: 440px;
+  }
+  .navbar {
+    
+    justify-content: flex-end; /* Center the links inside the navbar */
+    align-items: center;
+    
+  }
+  
+  header a {
+    color: #321e14;
+    margin-right: 40px;
+    padding: 8px 16px; /* Add some padding to the link */
+    border-radius: 50%; /* Make the background circular */
+    transition: all 0.3s ease; /* Smooth transition for all effects */
+  }
+  
+  header a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+  
+  /* Hover effect */
+  header a:hover {
+    background-color: #007bff; /* Add background color on hover */
+    color: white; /* Change text color to white on hover */
+    padding: 12px 20px; /* Increase padding to create the circle effect */
+  }
+  
+
+  /* Coming Soon Page */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  color: #333;
+  text-align: center;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,53 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+    background-color: white;
+  }
+  
+  .background-container {
+    height: 80vh;
+    background-image: url('/background.jpg'); /* Path relative to the public folder */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: flex-start; /* Align content to the left */
+    padding-left: 50px; /* Add padding to move content away from the edge */
+    position: relative;
+  }
+  
+  .overlay-content {
+    color: white;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px; /* Restrict the width for better alignment */
+  }
+  
+  .heading {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  

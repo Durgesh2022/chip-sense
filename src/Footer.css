@@ -1,0 +1,90 @@
+.footer-section {
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 0;
+    background-color: #08315c;
+    color: white;
+    width: 100%;
+
+  }
+  
+  .footer-container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  /* About Section (70%) */
+  .footer-about {
+    width: 70%;
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .footer-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-description {
+    
+    margin-bottom: 1rem;
+  }
+  
+  /* Legals Section (30%) */
+  .footer-legals {
+    width: 30%;
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .legals-container {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .legals-title {
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border-radius: 9999px;
+  }
+  
+  .legals-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .legals-item {
+    margin-bottom: 1rem;
+
+  }
+  
+  .legals-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .legals-link:hover {
+    color: gray;
+  }
+  
