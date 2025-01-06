@@ -19,7 +19,7 @@ a {
 }
 
 /* Logo Styling */
-.logo {
+.logo a {
   font-size: 1.8rem;
   font-weight: bold;
   color: #20d9f6; /* Logo text color */
@@ -36,12 +36,12 @@ margin-right: 30px;
 }
 
 /* Navbar links */
-.nav a {
-  color: #321e14;
+.navbar a {
+ color: black;
   margin: 0 10px;
   padding: 8px 12px; /* Adjust padding for spacing */
   border-radius: 4px; /* Make the background slightly rounded */
-  transition: all 0.3s ease; /* Smooth transition for all effects */
+
   font-size: 1rem; /* Ensure consistent font size */
 }
 

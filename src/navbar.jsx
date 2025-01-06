@@ -34,7 +34,11 @@ const Navbar = () => {
     <>
       <header className={scrolled ? "scrolled" : ""}>
         <div className="nav">
-          <div className="logo">ChipSense</div>
+          <div className="logo">
+          <a href="/" className="nav-link" onClick={handleClick}>
+          ChipSense
+          </a></div>
+         
           <nav className="navbar">
             <a href="/" className="nav-link">
               Home
