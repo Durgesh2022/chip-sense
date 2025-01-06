@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css'; // Import the CSS file
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faClipboard } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -9,9 +12,9 @@ function Footer() {
         <div className="footer-flex">
           {/* About Section (70%) */}
           <div className="footer-about">
-            <h1 className="footer-title">Chip Sense Technology</h1>
+            <h1 className="footer-title">ChipSense Technology</h1>
             <p className="footer-description">
-            At Chip Sense Technology, we are at the forefront of innovation, specializing in delivering cutting-edge solutions that empower businesses to thrive in a rapidly evolving technological landscape. As a trusted partner for niche technology reselling, we focus on providing advanced Edge AI Solutions, robust Cybersecurity offerings, and transformative Smart Factory technologies.            </p>
+             </p>
           </div>
 
           {/* Legals Section (30%) */}
@@ -20,13 +23,19 @@ function Footer() {
               <h3 className="legals-title">Contact Us</h3>
               <ul className="legals-list">
                 <li className="legals-item">
-                  <Link to="/" className="legals-link">Email</Link>
+                  <a href="mailto:Inquiry@chip-sense.com" className="legals-link">
+                  <FontAwesomeIcon icon={faEnvelope} className="legals-icon" />
+                  Email</a>
                 </li>
                 <li className="legals-item">
-                  <Link to="/" className="legals-link">Phone Number</Link>
+                  <Link to="/" className="legals-link">
+                  <FontAwesomeIcon icon={faClipboard} className="legals-icon" />
+                  Business Form</Link>
                 </li>
                 <li className="legals-item">
-                  <Link to="/" className="legals-link">Instagram</Link>
+                  <Link to="/" className="legals-link">
+                  <FontAwesomeIcon icon={faLinkedin} className="legals-icon" />
+                  Linked In</Link>
                 </li>
               </ul>
             </div>

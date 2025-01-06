@@ -1,65 +1,105 @@
 a {
-    text-decoration: none;
-    
-  }
-  
-  header {
-    width: 100%; /* Ensure the navbar spans the entire width of the viewport */
-    
-    top: 0;
-    left: 0; /* Align the navbar to the left */
-    right: 0; /* Align the navbar to the right */
-    
-    
-    transition: background-color 0.3s ease; /* Smooth transition */
-    padding: 10px 0; /* Optional: adjust padding for spacing */
-    background-color: white;
-  }
-  
-  /* Logo Styling */
+  text-decoration: none;
+}
+
+.nav {
+  width: 100%; /* Ensure the navbar spans the entire width of the viewport */
+  position: fixed;
+  top: 0;
+  left: 0; /* Align the navbar to the left */
+  right: 0; /* Align the navbar to the right */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 10px 20px; /* Adjust padding for consistent spacing */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for separation */
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+/* Logo Styling */
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
   color: #20d9f6; /* Logo text color */
+ 
   
-    justify-content: flex-start; /* Center the links inside the navbar */
-    align-items: center;
-    padding: 8px 16px
-    
 }
-  .nav{
-        display: flex;
-        align-items: center;
-        gap: 440px;
-  }
-  .navbar {
-    
-    justify-content: flex-end; /* Center the links inside the navbar */
-    align-items: center;
-    
-  }
-  
-  header a {
-    color: #321e14;
-    margin-right: 40px;
-    padding: 8px 16px; /* Add some padding to the link */
-    border-radius: 50%; /* Make the background circular */
-    transition: all 0.3s ease; /* Smooth transition for all effects */
-  }
-  
-  header a:last-child {
-    margin-right: 0; /* Remove margin from the last link */
-  }
-  
-  /* Hover effect */
-  header a:hover {
-    background-color: #007bff; /* Add background color on hover */
-    color: white; /* Change text color to white on hover */
-    padding: 12px 20px; /* Increase padding to create the circle effect */
-  }
-  
 
-  /* Coming Soon Page */
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between menu items */
+margin-right: 30px;
+}
+
+/* Navbar links */
+.nav a {
+  color: #321e14;
+  margin: 0 10px;
+  padding: 8px 12px; /* Adjust padding for spacing */
+  border-radius: 4px; /* Make the background slightly rounded */
+  transition: all 0.3s ease; /* Smooth transition for all effects */
+  font-size: 1rem; /* Ensure consistent font size */
+}
+
+
+
+/* Hover Effect */
+header a:hover {
+  background-color: #007bff; /* Add background color on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+/* Dropdown Menu */
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: block; /* Initially hidden */
+  z-index: 1000;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #321e14;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Show Dropdown on Hover */
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Fix alignment for "Markets We Serve" dropdown */
+.nav-dropdown {
+  margin-left: 10px; /* Optional: Adjust margin for spacing */
+}
+
+/* Coming Soon Page */
 .coming-soon {
   display: flex;
   flex-direction: column;

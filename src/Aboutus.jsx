@@ -8,12 +8,12 @@ const Mission = () => {
         <div className="about-us-text">
           <h1>About Us</h1>
           <p>
-          Chip Sense Technology is an innovative company specializing in providing advanced technological solutions to empower businesses in a fast-evolving landscape. They focus on Edge AI Solutions, Cybersecurity offerings, and Smart Factory technologies, aiming to enhance operational efficiency, security, and intelligence. By bridging the gap between cutting-edge innovations and practical applications, Chip Sense Technology positions itself as a trusted partner for niche technology reselling, driving organizations toward a smarter, more secure, and automated future.
+          ChipSense Technology leads the way in advanced innovation, focusing on Edge AI solutions across a wide range of industries. By offering Systems, Solutions and Services that boost efficiency, strengthen security, and elevate intelligence, the company helps organizations excel in an ever-evolving tech world—driving progress toward a smarter and more secure future.
           </p>
           <button className="about-us-button">Learn More</button>
         </div>
         <img
-          src="/image.webp"
+          src="/image.jpg"
           alt="About Us"
           className="about-us-image"
         />

@@ -6,14 +6,14 @@ const AboutUs = () => {
     <div className="about-us-container">
       <div className="about-us-content">
       <img
-          src="image1.jpg"
+          src="/image1.jpg"
           alt="About Us"
           className="about-us-image"
         />
         <div className="about-us-text">
           <h2>Mission and Vision</h2>
           <p>
-          Chip Sense Technology's mission is to empower businesses by delivering innovative solutions in Edge AI, Cybersecurity, and Smart Factory technologies, bridging the gap between advanced technology and practical implementation to enhance efficiency, security, and intelligence. Their vision is to drive a smarter, more secure, and automated future, helping businesses thrive in an ever-evolving technological landscape.
+          Our vision is to create a smarter and safer future by providing advanced Edge AI technology to businesses. To achieve this, our mission is to deliver top-edge Edge AI solutions that improve efficiency, enhance security, and provide real-time insights, helping businesses thrive in a changing technology landscape.
           </p>
          
         </div>
