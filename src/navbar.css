@@ -48,7 +48,7 @@ margin-right: 30px;
 
 
 /* Hover Effect */
-header a:hover {
+.navbar a:hover {
   background-color: #007bff; /* Add background color on hover */
   color: white; /* Change text color to white on hover */
 }
