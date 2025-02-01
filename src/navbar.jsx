@@ -111,9 +111,7 @@ const Navbar = () => {
               </a>
               {aboutUsDropdownVisible && (
                 <ul className="dropdown-menu">
-                  <li className="dropdown-item">
-                  <a href="#" className="nav-link" onClick={handleClick}>Company Introduction</a>
-                  </li>
+                 
                   <li className="dropdown-item">
                   <a href="#" className="nav-link" onClick={handleClick}>Our Team</a>
                   </li>

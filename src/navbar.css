@@ -22,7 +22,7 @@ a {
 .logo a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #20d9f6; /* Logo text color */
+  color: #12124d; /* Logo text color */
  
   
 }
@@ -31,7 +31,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjust spacing between menu items */
+  gap: 10px; /* Adjust spacing between menu items */
 margin-right: 30px;
 }
 

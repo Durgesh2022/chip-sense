@@ -1,14 +1,11 @@
 /* App.css */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    
-    background-color: white;
-  }
-  
+  margin: 0;
+}
   .background-container {
     height: 80vh;
-    background-image: url('/background.jpg'); /* Path relative to the public folder */
+   
+    background-image: url('/background1.jpg'); /* Path relative to the public folder */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -16,6 +13,7 @@ body {
     justify-content: flex-start; /* Align content to the left */
     padding-left: 50px; /* Add padding to move content away from the edge */
     position: relative;
+    
   }
   
   .overlay-content {
@@ -51,3 +49,24 @@ body {
     background-color: #0056b3;
   }
   
+
+  /* Coming Soon Page */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  color: #333;
+  text-align: center;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+}

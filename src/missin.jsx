@@ -13,8 +13,12 @@ const AboutUs = () => {
         <div className="about-us-text">
           <h2>Mission and Vision</h2>
           <p>
-          Our vision is to create a smarter and safer future by providing advanced Edge AI technology to businesses. To achieve this, our mission is to deliver top-edge Edge AI solutions that improve efficiency, enhance security, and provide real-time insights, helping businesses thrive in a changing technology landscape.
-          </p>
+          Our vision is to create a world where AI empowers
+individuals, businesses, and society, leading to a better future.
+
+
+Our objective is to keep the statements short and simple and not to repeat
+the same statement again and again.</p>
          
         </div>
       
