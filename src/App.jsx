@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ComingSoon from "./comingsoon";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import Footer from "./footer";
 import ContactForm from "./contactUs";
-import Home from "./Home";
+import Home from "./home";
 
 import "./App.css";
 
