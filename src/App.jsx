@@ -1,20 +1,22 @@
 import React from "react";
-import Carousel from "./Carousel";
-import Aboutus from "./Aboutus";
-import Navbar from "./navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ComingSoon from "./comingsoon";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import ContactForm from "./contactUs";
+import Home from "./Home";
 
- import "./App.css";
-import Footer from "./footer";
-import Mission from "./missin";
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <Navbar />
-      <Carousel />
-      <Aboutus />
-      <Mission />
-      
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/contact-us" element={<ContactForm />} />
+        </Routes>
       <Footer />
     </div>
   );
