@@ -141,7 +141,7 @@ const ContactForm = () => {
              checked={formData.consent}
              onChange={handleInputChange}
            />
-           I give consent that the company will process the following personal data: Full name, Phone number, E-mail, and Website history for the purpose of the company to use the said personal data to send advertisement and marketing media. You can read more details in our privacy policy here.
+           I give consent that the company will process my personal data.
          </label>
        </div>
        <button type="submit" className="submit-button">
